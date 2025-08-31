@@ -12,7 +12,7 @@
 
     <div class="px-10">
         <nav class="flex justify-between items-center py-4 border-b border-white/10">
-            <div class="font-bold text-4xl">DJ</div>
+            <div class="font-bold text-4xl">Pixel Positions</div>
 
             <div class="space-x-6 font-bold">
                 <a href="#">Jobs</a>
@@ -26,7 +26,7 @@
             </div>
         </nav>
 
-        <main class="mt-10 max-w-[986px] mx-auto">
+        <main class="mt-10 max-w-[1280px] mx-auto">
             {{ $slot }}
         </main>
     </div>
