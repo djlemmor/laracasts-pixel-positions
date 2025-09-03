@@ -15,15 +15,19 @@
             <div class="font-bold text-4xl">Pixel Positions</div>
 
             <div class="space-x-6 font-bold">
-                <a href="#">Jobs</a>
+                <a href="/">Jobs</a>
                 <a href="#">Careers</a>
                 <a href="#">Salaries</a>
                 <a href="#">Companies</a>
             </div>
 
             @auth
-                <div>
+                <div class="flex space-x-6 items-center">
                     <a href="/jobs/create">Post A Job</a>
+
+                    <x-forms.form method="POST" action="/logout">
+                        <x-forms.button>Logout</x-forms.button>
+                    </x-forms.form>
                 </div>
             @endauth
 
